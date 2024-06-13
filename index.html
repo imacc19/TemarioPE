@@ -6,25 +6,26 @@
     <title>Temario PE</title>
     <style>
         body {
-            background-color: rgb(127, 141, 192); /* Color de fondo gris claro */
-            font-family: Arial, sans-serif; /* Tipo de letra */
-            text-align: center; /* Alineación central del texto */
+            background-color: rgb(127, 141, 192); 
+            font-family: Arial, sans-serif; 
+            text-align: center; 
         }
 
         h1 {
-            color: rgb(51, 51, 153); /* Color azul oscuro para el título */
+            color: rgb(51, 51, 153); 
         }
 
         h2 {
-            color: rgb(189, 217, 119); /* Color púrpura para los subtítulos */
+            color: rgb(189, 217, 119); 
         }
 
         section {
-            margin: 20px; /* Margen entre secciones */
-            padding: 20px; /* Relleno dentro de las secciones */
-            border: 1px solid rgb(150, 150, 150); /* Borde gris claro */
-            border-radius: 5px; /* Esquinas redondeadas */
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+            margin: 20px; 
+            padding: 20px; 
+            border: 1px solid rgb(150, 150, 150); 
+            border-radius: 5px; 
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+            
         }
     </style>
 </head>
@@ -49,32 +50,140 @@
     <section> <h2>1.2 Descripción de datos:</h2>
         <ol>
             <li><n>Datos agrupados y no agrupados:</n><br>
-                La probabilidad y estadística es la rama de las matemáticas que se ocupa de la recopilación, organización, presentación, análisis e interpretación de datos.</li>
+            <n>Datos agrupados: </n> Son datos que han sido organizados en clases o intervalos, de manera que se agrupan los valores que se encuentran dentro de un determinado rango.<br>
+            <br><n>Datos no agrupados: </n> Son datos que se presentan en su forma individual, sin agrupar en clases o intervalos.
+            </li>
+
             <li><n>Frecuencia de clase:</n><br>      
-                Es un campo de las matemáticas y la estadística que se ocupa de la toma de decisiones bajo incertidumbre.
+                Es el número de veces que aparece un determinado valor o rango de valores dentro de una clase.
+
             <li><n>Frecuencia relativa:</n><br>   
-                Es el conjunto completo de todos los elementos que se están estudiando en una investigación estadística.
+                Es la proporción de veces que aparece un determinado valor o rango de valores dentro de una clase, expresada como un porcentaje o una fracción. Se calcula dividiendo la frecuencia de clase por el total de datos.adística.
+
             <li><n>Punto medio:</n><br>     
-                    Es un subconjunto de la población seleccionado de tal manera que cada elemento de la población tiene la misma probabilidad de ser seleccionado.
+                Es el valor central de una clase, obtenido al sumar los límites inferior y superior de la clase y dividir por dos.
+
             <li><n>Límites:</n><br>  
-                Son características numéricas de una distribución de probabilidad que no se conocen con certeza y deben estimarse a partir de una muestra.
+                Son los valores que marcan el inicio y el final de una clase. El límite inferior es el valor más pequeño de la clase, mientras que el límite superior es el valor más grande.
                 </ol>
     </section>
 
-    <section> <h2>Subvención 3: Título de la subvención 3</h2>
-        <p>Descripción detallada de la subvención 3.</p>
+    <section> <h2>1.3 Medidas de tendencia central</h2>
+        <ol>
+            <li><n>Media aritmética:</n><br>
+                Es el promedio de un conjunto de datos, obtenido al sumar todos los valores y dividir por el número total de datos. Se representa matemáticamente como:
+
+                <p>Media aritmética = (Σ xᵢ) / n</p>
+                <p>Donde: <br>
+
+                    Σ representa la suma de todos los valores (xᵢ) <br>
+                    n es el número total de datos</p>
+
+            <li><n>Media geométrica:</n><br>      
+                Es el promedio de un conjunto de datos, pero en lugar de sumar los valores, se multiplican y luego se extrae la raíz n-ésima del producto. Se representa matemáticamente como:
+                
+                <p>Media geométrica: = (√[Π xᵢ])^(1/n)</p>
+                <p>Donde: <br>
+
+                    Π representa la multiplicación de todos los valores (xᵢ) <br>
+                    n es el número total de datos</p>
+
+            <li><n>Media ponderada:</n><br>   
+                Es el promedio de un conjunto de datos, donde cada valor se multiplica por un peso correspondiente y luego se divide por la suma de todos los pesos. Se representa matemáticamente como:
+                
+                <p>Media ponderada: = (Σ (xᵢ * wᵢ)) / Σ wᵢ</p>
+                <p>Donde: <br>
+
+                    Σ representa la suma de todos los valores (xᵢ) multiplicados por sus respectivos pesos (wᵢ) <br>
+                    Σ wᵢ representa la suma de todos los pesos (wᵢ)</p>
+                
+            <li><n>Mediana:</n><br>     
+                Valor central de un conjunto de datos ordenado de menor a mayor. Si el conjunto de datos tiene un número par de elementos, la mediana es el promedio de los dos valores centrales.
+    
+            <li><n>Moda:</n><br>  
+                Es el valor que aparece con mayor frecuencia en un conjunto de datos. Puede haber una, dos o más modas en un conjunto de datos.
+
+                <li><n>Medidas de dispersión:</n><br>  
+                    Son herramientas que nos ayudan a cuantificar la variabilidad o dispersión de los datos en un conjunto. En otras palabras, nos indican qué tan dispersos están los datos alrededor de su valor central 
+
+
+                    <li><n>Varianza:</n><br>  
+                        Es el promedio del cuadrado de las desviaciones de cada valor respecto a la media aritmética. Se representa matemáticamente como:
+
+                        <p>Varianza = Σ [(xᵢ - μ)²] / n</p>
+                        <p>Donde: <br>
+        
+                            Σ representa la suma de todas las desviaciones al cuadrado [(xᵢ - μ)²] <br>
+                            n es el número total de datos <br>
+                            μ es la media aritmética</p>
+
+                            <li><n>Desviación estándar:</n><br>  
+                                Es la raíz cuadrada de la varianza. Se representa matemáticamente como:
+        
+                                <p>Desviación estándar = √Varianza</p>
+
+                                <li><n>Desviación media:</n><br>  
+                                    Es el promedio de las desviaciones absolutas de cada valor respecto a la media aritmética. Se representa matemáticamente como:
+            
+                                    <p> Desviación media = Σ |xᵢ - μ| / n</p>
+
+                                    <li><n>Desviación mediana:</n><br>  
+                                        Es la mediana de las desviaciones absolutas de cada valor respecto a la mediana.
+
+                                <li><n>Rango:</n><br>  
+                                    Es la diferencia entre el valor máximo y el valor mínimo de un conjunto de datos.
+                </ol>
     </section>
 
-    <section> <h2>Subvención 4: Título de la subvención 4</h2>
-        <p>Descripción detallada de la subvención 4.</p>
+    <section> <h2>1.4 Parámetros para datos agrupados.</h2>
+        <p>En probabilidad, los parámetros para datos agrupados se utilizan para describir las características de una distribución de probabilidad a partir de datos que han sido agrupados en intervalos o clases. 
+            Estos parámetros son útiles para analizar la distribución de la variable aleatoria sin tener que trabajar con los datos individuales. Los principales parámetros para datos agrupados son:</p> <br>
+
+            <p>Frecuencia absoluta: Es el número de veces que aparece un determinado valor o rango de valores dentro de una clase. Se representa con la letra f.</p><br>
+
+            <p>Frecuencia relativa: Es la proporción de veces que aparece un determinado valor o rango de valores dentro de una clase, expresada como un porcentaje o una fracción. Se calcula dividiendo la frecuencia absoluta por el total de datos. Se representa con la letra fr.</p><br>
+
+            <p>Frecuencia acumulada: Es la suma de las frecuencias absolutas o relativas desde el primer intervalo hasta el intervalo que se está considerando. Se representa con las letras Fa o Fr.</p><br>
+
     </section>
 
-    <section> <h2>Subvención 5: Título de la subvención 5</h2>
-        <p>Descripción detallada de la subvención 5.</p>
+    <section> <h2>1.5 Distribución de frecuencias.</h2>
+        <p> Es una forma de organizar y presentar datos cuantitativos, ya sean discretos o continuos, agrupándolos en clases o intervalos y mostrando la frecuencia con la que aparece 
+            cada clase o intervalo. Es una herramienta fundamental para describir la distribución de los datos y obtener información sobre sus características principales.Elementos de una distribución de frecuencias:</p><br>
+
+            <p>Clases o intervalos: Son los grupos en los que se dividen los datos. Se definen por sus límites inferior y superior.</p><br>
+
+            <p>Frecuencia absoluta: Es el número de veces que aparece un dato dentro de una clase o intervalo.</p><br>
+
+            <p>Frecuencia relativa: Es la proporción de veces que aparece un dato dentro de una clase o intervalo, expresada como un porcentaje o una fracción. Se calcula dividiendo la frecuencia absoluta por el total de datos.</p><br>
     </section>
 
-    <section> <h2>Subvención 6: Título de la subvención 6</h2>
-        <p>Descripción detallada de la subvención 6.</p>
+    <section> <h2>1.6 Técnicas de agrupación de datos.</h2>
+        <p>Es el proceso de organizar y dividir un conjunto de datos en clases o intervalos, con el objetivo de facilitar su análisis y comprensión. Esta técnica es especialmente útil cuando se trabaja con grandes conjuntos de datos, ya que permite resumir la información y obtener una visión general de la distribución de los datos.
+            Existen diferentes técnicas de agrupación de datos, cada una con sus propias ventajas y desventajas:</p><br>
+
+            <p>1. Agrupación por igual ancho de clase:</p><br>
+
+            <p>Definición: Esta técnica consiste en dividir el rango de valores en clases o intervalos que tengan el mismo ancho. <br>
+                Ventajas: Es simple y fácil de implementar. <br>
+                Desventajas: Puede no ser adecuada para datos con distribuciones no uniformes, ya que puede generar clases con muy pocos o demasiados datos.</p><br>
+
+            <p>2. Agrupación por frecuencias iguales:</p><br>
+
+            <p>Definición: Esta técnica consiste en dividir el rango de valores en clases o intervalos que contengan un número aproximadamente igual de datos. <br>
+                Ventajas: Se asegura que todas las clases tengan un número similar de datos, lo que facilita la comparación. <br>
+                Desventajas: Puede ser más compleja de implementar que la agrupación por igual ancho de clase y puede generar clases con anchos diferentes.</p><br>
+    </section>
+
+    <section> <h2>1.7 Técnicas de muestreo.</h2>
+        <p>Son procedimientos estadísticos que se utilizan para seleccionar un subconjunto de elementos (muestra) de una población más grande, con el objetivo de obtener 
+            información sobre toda la población a partir del análisis de la muestra.</p> <br>
+
+            <p>1. Muestreo probabilístico:</p><br>
+            <p>En el muestreo probabilístico, cada elemento de la población tiene una probabilidad conocida y no nula de ser seleccionado para la muestra. Esto garantiza que todos los elementos tengan la misma oportunidad de ser incluidos en la muestra.</p><br>
+
+            <p>2. Muestreo no probabilístico:</p><br>
+            <p>En el muestreo no probabilístico, no se conoce la probabilidad de selección de cada elemento de la población. Esto significa que no todos los elementos tienen la misma oportunidad de ser incluidos en la muestra.</p><br>
     </section>
 </body>
 </html>
