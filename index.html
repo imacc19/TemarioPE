@@ -3,31 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
     <title>Temario PE</title>
-    <style>
-        body {
-            background-color: rgb(240, 163, 108); 
-            font-family: Arial, sans-serif; 
-            text-align: justify; 
-        }
-
-        h1 {
-            color: rgb(109, 87, 16); 
-        }
-
-        h2 {
-            color: rgb(240, 108, 72); 
-        }
-
-        section {
-            margin: 20px; 
-            padding: 20px; 
-            border: 1px solid rgb(150, 150, 150); 
-            border-radius: 5px; 
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
-            
-        }
-    </style>
 </head>
 <body>
     <h1  style="text-align: center;">Tema 1 Estadística descriptiva</h1> 
@@ -192,6 +169,169 @@
             La altura de cada barra del histograma representa la frecuencia de datos para el intervalo correspondiente.
         <br>Son herramientas gráficas fundamentales en el ámbito de la probabilidad y la estadística, utilizados para representar la distribución de datos cuantitativos. </p> <br>
     </section>
+
+    <h1  style="text-align: center;">Tema 2 Fundamentos de la Teoría de Probabilidad.</h1> 
+
+    <section> <h2>2.1 Técnicas de Conteo</h2>
+        <p>Sirven para calcular el número total de resultados posibles en un experimento o evento aleatorio. 
+            En situaciones donde hay múltiples opciones o combinaciones posibles, estas estrategias son particularmente útiles.
+        <br>
+        Las técnicas de conteo generalmente se basan en principios de conteo y combinatoria fundamentales, como el principio de multiplicación, las permutaciones y las combinaciones.
+    </p>
+    </section>   
+
+    <section> <h2>2.1.1 Principio aditivo.</h2>
+        <p>El Principio Aditivo es un método fundamental de conteo en Probabilidad y Estadística que se utiliza para calcular el número total de resultados posibles en situaciones en las que dos o más eventos son mutuamente excluyentes.
+           Se afirma que la probabilidad de que ocurra al menos uno de dos eventos mutuamente excluyentes es igual a la suma de las probabilidades individuales de cada evento. Si dos eventos no pueden ocurrir al mismo tiempo, se consideran mutuamente excluyentes.<br>
+        <br>
+        Matemáticamente, el Principio Aditivo se expresa de la siguiente manera:
+        <br>
+        <br>
+        <strong>(A o B) = P(A) + P(B)</strong>
+        <br>
+        <br>
+<strong>Donde:</strong>
+
+P(A o B) representa la probabilidad de que ocurra el evento A o el evento B, o ambos. <br>
+P(A) representa la probabilidad de que ocurra el evento A. <br>
+P(B) representa la probabilidad de que ocurra el evento B. <br>
+    </p>
+    <p></p>
+    </section> 
+
+    <section> <h2>2.1.2 Principio multiplicativo.</h2>
+        <p>
+            El Principio Multiplicativo, también conocido como Regla del Producto, es otra técnica de conteo en probabilidad y estadística que se utiliza para calcular el número total de resultados posibles cuando existen dos o más eventos independientes.
+            Se utiliza cuando la ocurrencia de un evento no afecta la probabilidad de que ocurra otro evento. Esto es diferente al Principio Aditivo, que se aplica a eventos mutuamente excluyentes.
+            <br>El Principio Multiplicativo afirma que la probabilidad de que ocurran dos eventos independientes es igual al producto de las probabilidades individuales de cada evento.
+            <br>
+        <br>
+        Matemáticamente, el Principio Multiplicativo se expresa de la siguiente manera:
+        <br>
+        <br>
+        <strong>P(A y B) = P(A) * P(B)</strong>
+        <br>
+        <br>
+    <strong>Donde:</strong>
+
+    P(A y B) representa la probabilidad de que ocurran el evento A y el evento B simultáneamente. <br>
+    P(A) representa la probabilidad de que ocurra el evento A. <br>
+    P(B) representa la probabilidad de que ocurra el evento B. <br>
+    </p>
+    </section> 
+
+    <section> <h2>2.1.3 Notación Factorial.</h2>
+        <p>
+            Representada por el signo de exclamación <strong>"!"</strong> después de un número entero positivo, es una función matemática fundamental que se utiliza en diversas áreas de las matemáticas.
+            El factorial de un número entero positivo n se define como el producto de todos los números enteros positivos desde 1 hasta n.
+            <br>
+        <br>
+        Se expresa matemáticamente de la siguiente manera:
+        <br>
+        <br>
+        <strong>n! = n * (n - 1) * (n - 2) * ... * 2 * 1</strong>
+        <br>
+        <br>
+    <strong>Sus propiedades son:</strong> <br>
+
+    Factorial de 0: El factorial de 0 se define como 1:
+    0! = 1<br>
+    Factorial de 1: El factorial de 1 es simplemente 1:
+    1! = 1 <br>
+    </section> 
+
+    <section> <h2>2.1.4 Permutaciones.</h2>
+        <p>
+            Son una técnica de conteo fundamental para determinar el número total de formas distintas en que se puede ordenar un conjunto de elementos.
+            <br>
+            En las permutaciones, el orden importa, a diferencia de las combinaciones. En otras palabras, dos permutaciones que tienen los mismos elementos pero están ordenadas de manera diferente se consideran distintas.
+            La fórmula para permutaciones es la siguiente:
+        <br>
+        <br>
+        Se expresa matemáticamente de la siguiente manera:
+        <br>
+        <br>
+        <strong>P_n^k = n(n - 1)(n - 2)(n - k + 1)</strong>
+        <br>
+        <br>
+    <strong>Donde:</strong> <br>
+    P_n^k representa el número de permutaciones de n elementos tomados k a la vez.<br>
+    n representa el número total de elementos en el conjunto.<br>
+    k representa el número de elementos que se seleccionan del conjunto para la permutación. <br>
+    </section> 
+
+    <section> <h2>2.1.5 Combinaciones.</h2>
+        <p>
+            Las combinaciones de probabilidad y estadística son un método de conteo que se utiliza para determinar el número total de formas distintas en que se puede seleccionar un conjunto de elementos sin importar el orden en que se seleccionan. <br>
+             En las combinaciones, el orden no importa, a diferencia de las permutaciones, donde sí importa el orden. Es decir, dos combinaciones que contienen los mismos elementos pero que están ordenadas de manera diferente se consideran iguales.
+            <br>
+        <br>
+        Se expresa matemáticamente de la siguiente manera:
+        <br>
+        <br>
+        <strong>P_n^k = n(n - 1)(n - 2)(n - k + 1)</strong>
+        <br>
+        <br>
+    <strong>Donde:</strong> <br>
+
+    P_n^k representa el número de permutaciones de n elementos tomados k a la vez.<br>
+    n representa el número total de elementos en el conjunto.<br>
+    k representa el número de elementos que se seleccionan del conjunto para la permutación. <br>
+    </section> 
+
+    <section> <h2>2.1.6 Diagrama de Árbol.</h2>
+        <p>
+        Las probabilidades de eventos compuestos o secuenciales se pueden representar y calcular utilizando un diagrama de árbol. Es una forma visual de organizar y analizar las diversas posibilidades que pueden ocurrir en un experimento o situación aleatoria.
+    <br><br>
+    <strong>La estructura de un diagrama de árbol es la siguiente:</strong>
+    <br><br>
+        Un diagrama de árbol tiene <strong>ramas y nodos.</strong> Las ramas representan los diversos resultados potenciales de un evento o decisión. Los puntos de decisión o eventos en el proceso se denominan nodos. Cada rama que sale de un nodo representa una posibilidad particular que surge de ese evento.
+            <br>
+        <br>
+        <strong>En un diagrama de árbol, las probabilidades son:</strong> <br><br>
+        En el diagrama de árbol, se le asigna una probabilidad a cada rama, que representa la probabilidad de que ese resultado específico ocurra. Las reglas de probabilidad, 
+        como la regla de la suma y la regla del producto, se utilizan para calcular las probabilidades.
+        <br>
+        <br>
+        <strong>2.1.7 Teorema del Binomio.</strong>
+        <br>
+        <br>
+    <strong>Donde:</strong> <br>
+
+    Lanzamiento 1: <br>
+    Cara (C) -> Lanzamiento 2: Cara (C) = CC (Probabilidad: 1/4) <br>
+        -> Lanzamiento 2: Cruz (X) = CX (Probabilidad: 1/4) <br>
+    Cruz (X) -> Lanzamiento 2: Cara (C) = XC (Probabilidad: 1/4) <br>
+        -> Lanzamiento 2: Cruz (X) = XX (Probabilidad: 1/4) <br>
+    </section> 
+
+    <section> <h2>2.1.6 Diagrama de Árbol.</h2>
+        <p>
+        Las probabilidades de eventos compuestos o secuenciales se pueden representar y calcular utilizando un diagrama de árbol. Es una forma visual de organizar y analizar las diversas posibilidades que pueden ocurrir en un experimento o situación aleatoria.
+    <br><br>
+    <strong>La estructura de un diagrama de árbol es la siguiente:</strong>
+    <br><br>
+        Un diagrama de árbol tiene <strong>ramas y nodos.</strong> Las ramas representan los diversos resultados potenciales de un evento o decisión. Los puntos de decisión o eventos en el proceso se denominan nodos. Cada rama que sale de un nodo representa una posibilidad particular que surge de ese evento.
+            <br>
+        <br>
+        <strong>En un diagrama de árbol, las probabilidades son:</strong> <br><br>
+        En el diagrama de árbol, se le asigna una probabilidad a cada rama, que representa la probabilidad de que ese resultado específico ocurra. Las reglas de probabilidad, 
+        como la regla de la suma y la regla del producto, se utilizan para calcular las probabilidades.
+        <br>
+        <br>
+        <strong>Ejemplo de un diagrama de árbol:</strong>
+        <br>
+        <br>
+    <strong>Donde:</strong> <br>
+
+    Lanzamiento 1: <br>
+    Cara (C) -> Lanzamiento 2: Cara (C) = CC (Probabilidad: 1/4) <br>
+        -> Lanzamiento 2: Cruz (X) = CX (Probabilidad: 1/4) <br>
+    Cruz (X) -> Lanzamiento 2: Cara (C) = XC (Probabilidad: 1/4) <br>
+        -> Lanzamiento 2: Cruz (X) = XX (Probabilidad: 1/4) <br>
+    </section> 
+
+
  <p> Autor: Yael Antonio Chavez Atanacio</p>
 </body>
 </html>
