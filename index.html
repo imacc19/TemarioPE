@@ -315,7 +315,7 @@ P(B) representa la probabilidad de que ocurra el evento B. <br>
             <br>
         <br>
         <strong>En un diagrama de árbol, las probabilidades son:</strong> <br><br>
-        En el diagrama de árbol, se le asigna una probabilidad a cada rama, que representa la probabilidad de que ese resultado específico ocurra. Las reglas de probabilidad, 
+        Se le asigna una probabilidad a cada rama, que representa la probabilidad de que ese resultado específico ocurra. Las reglas de probabilidad, 
         como la regla de la suma y la regla del producto, se utilizan para calcular las probabilidades.
         <br>
         <br>
@@ -324,13 +324,184 @@ P(B) representa la probabilidad de que ocurra el evento B. <br>
         <br>
     <strong>Donde:</strong> <br>
 
-    Lanzamiento 1: <br>
-    Cara (C) -> Lanzamiento 2: Cara (C) = CC (Probabilidad: 1/4) <br>
-        -> Lanzamiento 2: Cruz (X) = CX (Probabilidad: 1/4) <br>
-    Cruz (X) -> Lanzamiento 2: Cara (C) = XC (Probabilidad: 1/4) <br>
-        -> Lanzamiento 2: Cruz (X) = XX (Probabilidad: 1/4) <br>
-    </section> 
+    Ejemplo de un lanzamiento de moneda: <br>
+    Cara (50%) -----> Lanzamiento 1
+                      | Cara (50%) --> Cara (25%) <br>
+                      | Cruz (50%)  --> Cruz (25%)<br>
+  Cruz (50%) -----> Lanzamiento 2 <br>
+                      | Cara (50%) --> Cruz (25%) <br>
+                      | Cruz (50%)  --> Cara (25%)<br>
+    </section>
 
+<section> 
+    <h2>2.1.7 Teorema del Binomio.</h2>
+        <p>
+            Es una fórmula fundamental para explicar la distribución de probabilidades en experimentos aleatorios binomiales.
+            Las siguientes características definen un experimento binomial: <br>
+
+           <strong>Hay dos posibilidades de resultados:</strong>  El experimento solo produce dos resultados posibles: <strong>"éxito"</strong> y <strong>"fracaso".</strong> <br> <br>
+            
+        <strong>Eventos independientes:</strong> Los resultados de los eventos posteriores no se ven afectados por los resultados de cada evento en particular. <br> <br>
+            
+    <strong>Número finito de repeticiones:</strong> el experimento se repite una cantidad determinada de veces, generalmente representada por la letra <strong>"n".</strong> <br> <br>
+            
+    <br><br>
+    <strong>La formula para calcular la probabilidad de obtener "k" éxitos en "n" repeticiones es la siguiente:</strong>
+    <br><br>
+    <strong></strong>P(k éxitos) =  nCk * (p^k) * (q^(n-k))</strong> <br>
+        <br>
+        <strong>Donde:</strong> <br><br>
+        P(k éxitos): Representa la probabilidad de obtener "k" éxitos en "n" repeticiones.
+nCk: Es el coeficiente binomial, que representa el número de combinaciones posibles de "k" elementos de un conjunto de "n" elementos. 
+    </section>
+
+<section><h2>2.2 Teoría elemental de probabilidad</h2>
+
+    <p>Una rama fundamental del campo de la probabilidad es la teoría elemental de la probabilidad,
+         también conocida como probabilidad clásica. Se basa en la idea de que la probabilidad de un 
+         evento se puede calcular como la proporción de resultados favorables entre todos los resultados 
+         posibles igualmente probables. <br> <br>
+
+         <strong>La probabilidad de un evento (A) se define como:</strong> <br> <br>
+
+         <strong>P(A) = n(A) / n(S)</strong><br><br>
+
+        <strong>Donde:</strong><br><br>
+
+    <strong>P(A):</strong> Representa la probabilidad del evento A. <br>
+    <strong>n(A):</strong> Es el número de resultados favorables al evento A. <br>
+    <strong>n(S):</strong> Es el número total de resultados posibles igualmente probables del experimento aleatorio. <br>
+    </p>
+</section>
+
+    <section><h2>2.3 Probabilidad de Eventos </h2>
+        <p>
+            La probabilidad de un evento se define como la medida numérica que indica la probabilidad o la certeza de que ese evento ocurra en un experimento aleatorio. <br>
+La probabilidad de un evento se calcula como la proporción de los resultados favorables al evento dentro del espacio muestral. El conjunto muestral o espacio muestral es el conjunto de todos los resultados posibles del experimento aleatorio.
+        </p>
+
+        <li><n style="font-size: 20px; color: #94e468;">Espacio muestral</n><br>
+            <p>El espacio muestral, también conocido como espacio muestral o conjunto muestral, 
+                es el conjunto de todos los resultados posibles de un experimento aleatorio en el
+                campo de la probabilidad y la estadística. La letra <strong>Ω</strong> (omega) o la letra E suelen ser sus representaciones.
+                <br>
+                <br>
+                <strong>Algunas características son:</strong>
+        <strong>Completitud:</strong> El espacio muestral debe incluir todos los resultados posibles del experimento, sin omitir ninguno. <br>
+        <strong>Exclusividad:</strong> Los resultados del espacio muestral deben ser mutuamente excluyentes, es decir, la ocurrencia de un resultado excluye la posibilidad de que ocurran los demás. <br>
+        <strong>Unión:</strong> La unión de todos los resultados del espacio muestral debe abarcar todo el espacio muestral en sí mismo. <br>
+   <br>
+   <br>
+    </p>
+    <p>
+        <li><n style="font-size: 20px; color: #94e468;">Definición de evento</n><br> <br>
+            Un evento se define como un conjunto específico de resultados posibles dentro de un experimento aleatorio. Mayormente se representa con letras mayúsculas en matemáticas.
+    </p>
+
+    <p>
+        <li><n style="font-size: 20px; color: #94e468;">Simbología</n><br> <br>
+            La simbología es esencial para representar conceptos, fórmulas y resultados de manera concisa y clara. Aquí hay un resumen de algunos de los símbolos más utilizados en estadística y probabilidad: <br> <br>
+
+        <strong>P(E):</strong> Probabilidad del evento E. Representa la medida numérica de la posibilidad de que ocurra el evento E en un experimento aleatorio. <br>
+
+        <strong>n(E):</strong> Número de resultados favorables al evento E. Representa la cantidad de outcomes dentro del espacio muestral que cumplen con la definición del evento E. <br>
+
+        <strong>n(Ω):</strong> Número total de resultados posibles en el espacio muestral (Ω). Representa la cantidad total de outcomes que pueden ocurrir en el experimento aleatorio. <br>
+
+        <strong>Ω:</strong> Espacio muestral. Representa el conjunto de todos los resultados posibles del experimento aleatorio. <br>
+
+        <strong>A ∪ B:</strong> Unión de los eventos A y B. Representa el conjunto de outcomes que pertenecen a A, a B o a ambos. <br>
+
+        <strong>A ∩ B:</strong> Intersección de los eventos A y B. Representa el conjunto de outcomes que pertenecen a ambos eventos, A y B. <br>
+
+        <strong>A':</strong> Evento complementario de A. Representa el conjunto de outcomes del espacio muestral que no pertenecen al evento A. <br>
+
+        <strong>X:</strong> Variable aleatoria. Representa una característica o atributo que puede tomar diferentes valores aleatorios en un experimento. <br>
+
+        <strong>x:</strong> Valor específico de la variable aleatoria X. Representa un outcome particular que puede tomar la variable aleatoria. <br> <br>
+    </p>
+
+    <p>
+        <li><n style="font-size: 20px; color: #94e468;">Unión</n><br> <br>
+            La unión de eventos es una operación matemática que combina dos o más eventos para formar un evento más grande. 
+    </p>
+
+    <p>
+        <li><n style="font-size: 20px; color: #94e468;">Intersección</n><br> <br>
+        La intersección de eventos es una operación matemática que combina dos o más eventos en un solo evento más limitado. El símbolo "∩" se usa para representarlo.
+
+    </p>
+
+    <p>
+        <li><n style="font-size: 20px; color: #94e468;">Diagramas de Venn</n><br> <br>
+        Los diagramas de Venn son una herramienta gráfica para representar las relaciones entre conjuntos de elementos o eventos.
+         Se basan en la ilustración de las diferentes posibilidades de resultados en un experimento aleatorio mediante la superposición de círculos o figuras geométricas.
+    </p>
+    </section>
+
+    <section><h2>2.4 Probabilidad con Técnicas de Conteo</h2>
+        <p>
+            Las técnicas de conteo de probabilidad utilizan técnicas de conteo básicas para calcular la probabilidad de que sucedan eventos en experimentos aleatorios. Cuando la definición del evento de interés y el espacio muestral (conjunto de todos los resultados posibles) son relativamente simples y permiten una enumeración clara de los resultados, estos métodos son particularmente útiles.
+        </p> <br> <br>
+        <p>
+            <li><n style="font-size: 20px; color: #94e468;">Axiomas</n><br>
+                Los axiomas son un conjunto de principios fundamentales que sirven como base para la definición y el cálculo de probabilidades. Estos axiomas se consideran verdades autoevidentes que permiten construir una teoría de probabilidad sólida y consistente, no pruebas empíricas.
+        </p>
+        <p>
+            <li><n style="font-size: 20px; color: #94e468;">Teoremas</n><br>
+            Los teoremas son afirmaciones o proposiciones matemáticas que se deducen de los axiomas y principios fundamentales de la teoría. Estos teoremas brindan herramientas para analizar y comprender el comportamiento de fenómenos aleatorios y establecen las relaciones entre variables aleatorias, eventos y distribuciones de probabilidad.
+            <br>
+            La teoría y sus aplicaciones dependen de los teoremas de probabilidad y estadística. Permiten realizar inferencias estadísticas, formular modelos probabilísticos y tomar decisiones informadas en situaciones de incertidumbre.
+        </p>
+    </section>
+
+    <section><h2>2.5 Probabilidad condicional</h2>
+        <p>
+            Una herramienta clave en la teoría de la probabilidad es la probabilidad condicional, también conocida como probabilidad a posteriori o probabilidad Bayesiana. Permite calcular la probabilidad de un evento porque ya ha ocurrido otro evento. En otras palabras, la probabilidad condicional describe la probabilidad de que un evento ocurra teniendo en cuenta la información adicional de que ya ha ocurrido un evento.
+        </p> <br>
+        <p>
+            <li><n style="font-size: 20px; color: #94e468;">Dependiente</n><br>
+            Es una situación en la que la probabilidad de un evento se ve afectada por la información sobre la ocurrencia o no ocurrencia de otro evento. Esta dependencia es importante para modelar situaciones en las que la probabilidad de un evento no es constante y cambia en función de otros eventos.
+        </p>
+        <p>
+            <li><n style="font-size: 20px; color: #94e468;">Independiente</n><br>
+            Es una situación en la que la información sobre la ocurrencia o no ocurrencia de un evento no afecta la probabilidad de otro evento. Esta propiedad es fundamental para modelar situaciones en las que los eventos no se influencian mutuamente y ocurren de manera aleatoria e independiente.
+        </p>
+    </section>
+
+    <section><h2>2.6 Ley multiplicativa</h2>
+        <p>
+            Es un concepto fundamental que permite calcular la probabilidad de que dos o más eventos se intersecten.
+        <br> <br>
+       <strong>La ley multiplicativa se expresa matemáticamente mediante la siguiente fórmula:</strong> <br><br>
+            <strong>P(A ∩ B) = P(A) * P(B | A)</strong> <br> <br>
+
+            <strong>Donde:</strong> <br> <br>
+            <strong>P(A ∩ B):</strong> Probabilidad de la intersección de los eventos A y B. La intersección representa la ocurrencia simultánea de ambos eventos. <br>
+            <strong>P(A):</strong> Probabilidad del evento A sin considerar la información de B. <br>
+            <strong>P(B | A):</strong> Probabilidad condicional de B dado A. Representa la probabilidad de que B ocurra sabiendo que A ya ha ocurrido.
+    </p>     
+    </section>
+
+    <section><h2>2.7 Eventos independientes</h2>
+        <p>
+         Los eventos en los que la ocurrencia de uno no afecta la probabilidad de que ocurra el otro se denominan eventos independientes en probabilidad y estadística. En otras palabras, la información sobre si un evento ha ocurrido o no ofrece información adicional sobre la probabilidad de que ocurra otro evento.
+        </p>
+        <p><li><n style="font-size: 20px; color: #94e468;">Regla de Bayes</n><br>
+            Es una idea clave en la teoría de la probabilidad y la estadística que permite actualizar la probabilidad de un evento basándose en datos nuevos. Es una herramienta importante para el razonamiento bajo incertidumbre y tiene una amplia gama de usos en una variedad de campos.
+<br><br>
+<strong>La Regla de Bayes se expresa matemáticamente mediante la siguiente fórmula:</strong> <br> <br>
+<strong>P(H | E) = (P(E | H) * P(H)) / P(E)</strong><br><br>
+<strong>Donde:</strong><br><br>
+<strong>P(H | E):</strong> Probabilidad posterior de la hipótesis H dado el evento E. Representa la probabilidad actualizada de H después de considerar la nueva evidencia E. <br>
+
+<strong>P(E | H):</strong> Verosimilitud del evento E dado la hipótesis H. Representa la probabilidad de observar el evento E si la hipótesis H es cierta. <br>
+
+<strong>P(H):</strong> Probabilidad a priori de la hipótesis H. Representa la creencia o probabilidad inicial de H antes de considerar cualquier evidencia. <br>
+
+<strong>P(E):</strong> Probabilidad total del evento E. Representa la probabilidad de observar el evento E, independientemente de que H sea cierta o falsa. <br>
+        </p>
+    </section>
 
  <p> Autor: Yael Antonio Chavez Atanacio</p>
 </body>
