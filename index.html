@@ -693,9 +693,115 @@ Para un espacio muestral finito, si todos los resultados son igualmente probable
         <msub><mi>σ</mi><mi>X</mi></msub><mo>=</mo><msqrt>
         <mi>Var</mi><mo>(</mo><mi>X</mi><mo>)</mo>
     </msqrt></math></p>
+    </section>
+    
+    
+        <h1  style="text-align: center;">Tema 4 Distribuciones de Probabilidad</h1>      
+    <section>
 
+    <h2>4.1 Función de probabilidad.</h2>
+    <p>
+Es una herramienta esencial para explicar cómo se comportan las variables aleatorias discretas. Asignar una probabilidad a cada uno de los valores potenciales que puede tomar dicha variable es su principal objetivo.
+<br>
+La función de probabilidad es una función matemática que asocia una probabilidad entre 0 y 1 a cada resultado posible de un experimento aleatorio (contenido en el espacio muestral). Esta probabilidad es la certeza o la posibilidad de que ocurra dicho resultado.
+    </p>
     </section>
 
+    <section>
+    <h2>4.2 Distribución binomial.</h2>
+    <p>
+        Describe la probabilidad de obtener un número específico de éxitos en un conjunto de n experimentos independientes, cada uno de los cuales tiene dos resultados potenciales: éxito o ineficacia
+        <br><br>Las siguientes condiciones deben cumplirse para que se utilice la distribución binomial: <br> <br>
+
+        <strong>Número fijo de experimentos:</strong> debe saber cuántos experimentos (n) se llevarán a cabo. <br>
+        <strong>Probabilidad constante de éxito:</strong> Para cada experimento, la probabilidad de éxito (p) debe ser constante. En otras palabras, la probabilidad de obtener un éxito en un experimento individual debe ser igual para todos los experimentos. <br> 
+        <br>Cada experimento debe producir dos resultados potenciales, conocidos como "éxito" y "fracaso".
+    </p>
+    </section>
+    <section>
+        <h2>4.3 Distribución hipergeométrica</h2>
+        <p>
+            Es una distribución de probabilidad discreta que se utiliza para modelar el número de éxitos en una muestra sin reemplazo de tamaño n extraída de una población finita de tamaño N, en la que cada elemento de la población puede ser clasificado como éxito o fracaso.
+<br> <br>
+            La distribución hipergeométrica asume que los experimentos no son independientes y no hay reemplazo de los elementos extraídos, a diferencia de la distribución binomial, que asume experimentos independientes con reemplazo. Esto implica que la probabilidad de éxito de cada experimento cambia a medida que se extraen elementos de la población.       
+        <br><br>
+        Las siguientes condiciones son necesarias para que se aplique la distribución hipergeométrica: <br> <br>
+
+        <strong>La población finita</strong> (N) es la población de la que se extrae la muestra. <br>
+
+    <strong>Muestreo sin reemplazo:</strong> la probabilidad de éxito cambia con cada extracción porque los elementos extraídos de la población no se reemplazan.
+
+
+
+        </p>
+    </section>
+
+    <section>
+        <h2>4.4 Distribución de Poisson</h2>
+        <p>
+            Es una distribución discreta que representa la cantidad de eventos que ocurren en un intervalo fijo de tiempo o espacio, suponiendo que estos eventos ocurren independientemente entre sí y con una tasa promedio constante.
+<br>
+            La distribución de Poisson se utiliza para modelar situaciones donde los eventos pueden ocurrir en un continuo, como el tiempo o el espacio. Se utiliza para experimentos con un número finito de ensayos.
+            <br><br>
+            Las siguientes condiciones deben cumplirse para que se aplique la distribución de Poisson: <br> <br>
+
+<strong>Eventos aleatorios:</strong> Los eventos modelados deben ser aleatorios, lo que significa que su ocurrencia no puede ser determinada con certeza.
+
+<strong>Independencia:</strong> Los eventos deben ser independientes entre sí, es decir, la probabilidad de que ocurra un evento no afecta la probabilidad de que ocurra otro evento.
+
+<strong>Tasa constante:</strong> La tasa promedio de ocurrencia de eventos debe permanecer constante a lo largo del intervalo de tiempo o espacio.
+
+<strong>Eventos raros:</strong> es muy poco probable que un evento ocurra en un intervalo de tiempo o espacio muy pequeño.
+        </p>
+    </section>
+
+    <section>
+        <h2>4.5 Distribución normal.</h2>
+        <p>
+            Es una de las distribuciones de probabilidad de variable continua más significativas en términos de probabilidad y estadística. Su forma es como una campana simétrica, con la mayoría de los datos agrupados alrededor de un valor central, también conocido como media, y los valores menos probables se encuentran en los extremos.
+<br><br>
+La distribución normal tiene las siguientes características principales: <br><br>
+
+ <strong>Simetría:</strong> La distribución normal es simétrica en comparación con su media (μ). Esto implica que la probabilidad de que un valor esté por debajo de la media es igual a la probabilidad de que esté por encima de la media. <br>
+
+<strong>Curva en forma de campana:</strong> La forma de distribución normal tiene una forma similar a una campana, con una concentración de datos que disminuye gradualmente hacia los extremos y alrededor de la media. <br>
+
+<strong>Desviación estandar:</strong> La desviación estándar (σ) es una medida de la dispersión de los datos en relación con la media. Los datos serán más dispersos cuanto mayor sea la desviación estándar.
+<br>
+<strong>Puntos de inflexión:</strong> La curva de la distribución normal tiene dos puntos de inflexión a una distancia de ±1 desviación estándar de la media.
+        </p>
+    </section>
+
+    <section> <h2>4.6 Distribución T-student</h2>
+        <p>
+            Es una distribución de probabilidad continua que surge del problema de estimar la media de una población normalmente distribuida cuando la muestra es pequeña y la desviación estándar de la población es desconocida.
+        </p>
+    </section>
+
+    <section>
+        <h2>4.7 Distribución Chi cuadrada</h2>
+        <p>
+            Es una distribución de probabilidad continua que se usa principalmente en estadística para realizar pruebas de hipótesis y análisis de datos. Su forma asimétrica a la derecha lo distingue y se puede usar en situaciones en las que se comparan los valores observados con los valores esperados.
+<br><br>
+Las características principales de la distribución chi-cuadrada son: <br> <br>
+
+<strong>Asimetría:</strong> La distribución chi-cuadrada es asimétrica a la derecha, lo que significa que la mayoría de los valores están en el lado izquierdo de la distribución y los valores extremos están en la cola derecha. <br>
+<strong>Valores posibles:</strong> La distribución chi-cuadrada solo acepta valores que no son negativos y que van desde cero hasta infinito.
+        </p>
+    </section>
+
+    <section>
+        <h2>4.8 Distribución F</h2>
+        <p>
+            Es una distribución de probabilidad continua que se utiliza principalmente en estadística para pruebas de hipótesis y análisis de varianza. Su forma asimétrica a la derecha lo hace útil en situaciones en las que se comparan las variaciones de dos muestras aleatorias.
+<br><br>
+Las propiedades clave de la distribución F son: <br><br>
+
+<strong>Asimetría:</strong> La distribución F es asimétrica a la derecha, lo que significa que la mayoría de los valores se concentran en el lado izquierdo de la distribución y los valores extremos se ubican en la cola derecha.
+<br>
+<strong>Grados de libertad:</strong> La forma de la distribución F depende de dos parámetros conocidos como grados de libertad (gl).
+        </p>
+    </section>
  <p> Author: Yael Antonio Chavez Atanacio</p>
 </body>
 </html>
