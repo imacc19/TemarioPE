@@ -15212,8 +15212,85 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
     display: none;
   }
 </style>
+<style>
+  table {
+      border-collapse: collapse;
+      width: 100%;
+  }
+  th, td {
+      padding: 10px;
+      text-align: left;
+      border: 1px solid #ddd;
+  }
+  th {
+      background-color: #8fae3a;
+  }
+  td input {
+      border: none;
+      background-color: transparent;
+      width: 100%;
+      font-weight: bold; /* Optional: make text bolder */
+  }
+  th {
+text-align: center;
+}
+td {
+text-align: center;
+}
+body {
+background-color: #a3bcd6; /* Light gray background */
+}
+</style>
 <!-- End of mermaid configuration --></head>
 <body class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
+  <br><center><button><a href="index.html" class="menu-link">Regresar al menú principal</a></button></center> <br><br>
+    <h1>Los datos ingresados son:</h1>
+    <h1>1, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 4, 4, 4, 4, 3, 3, 3, 2, 2, 1 </h1>
+    <br>
+    <br>
+    <table>
+        <thead>
+          <tr>
+            <th>Clases</th>
+            <th>Frecuencias Absolutas</th>
+            <th>Frecuencias Relativa</th>
+            <th>Frecuencias Acumulada</th>
+          </tr>
+        </thead>
+      
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>6.6</td>
+            <td>6.6</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>4</td>
+            <td>13.3</td>
+            <td>19.9</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>6</td>
+            <td>20</td>
+            <td>39.9</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>8</td>
+            <td>26.6</td>
+            <td>66.5</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>10</td>
+            <td>33.3</td>
+            <td>99.8</td>
+          </tr>
+          </tbody>
+      </table>
 <div  class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -15908,6 +15985,5 @@ class="
 </div>
 
 </div>
-<br><center><button><a href="index.html" class="menu-link">Regresar al menú principal</a></button></center>
 </body>
 </html>
